@@ -4,7 +4,7 @@ param containerAppEnvironmentId string
 param repositoryImage string = 'mcr.microsoft.com/azuredocs/containerapps-helloworld:latest'
 param envVars array = []
 param registry string
-param minReplicas int = 0
+param minReplicas int = 1
 param maxReplicas int = 2
 param port int = 80
 param externalIngress bool = false
