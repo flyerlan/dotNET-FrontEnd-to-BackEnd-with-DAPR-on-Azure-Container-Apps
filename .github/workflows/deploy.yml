@@ -11,7 +11,7 @@ env:
   RESOURCE_GROUP_NAME: storeflyerlan
 
   # specify your preferred region
-  REGION: japaneast 
+  REGION: japaneast
 
   STORE_DOCKER: Store/Dockerfile
   STORE_IMAGE: store
